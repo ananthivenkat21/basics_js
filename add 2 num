@@ -1,0 +1,6 @@
+var a=10;
+var b=50;
+function addnumber(){
+    console.log(a+b);
+}
+addnumber();
