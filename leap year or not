@@ -1,0 +1,10 @@
+var a=2003;
+if((a%400===0)&&(a%100===0)){
+    console.log("it is leap year");
+}
+else if((a%4===0)&&(a%100!==0)){
+    console.log("it is a leap year");
+}
+else{
+    console.log("it is not a leap year")
+}
