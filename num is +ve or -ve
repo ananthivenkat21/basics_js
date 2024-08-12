@@ -1,0 +1,10 @@
+const a=-0.5;
+if(a>0){
+    console.log("positive",a);
+}
+else if(a===0){
+    console.log("zero",a);
+}
+else{
+    console.log("negative",a);
+}
