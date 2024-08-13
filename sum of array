@@ -1,0 +1,6 @@
+var k=[4,14,8,31,34];
+var sum=0;
+for(var value of k){
+    sum+=value;
+}
+console.log("sum of the k is:",sum)
