@@ -1,0 +1,20 @@
+let a="zade medowes";
+let count=0;
+const k="aeiou";
+for(let char of a){
+if(k.includes(char.toLowerCase())){
+ count++;
+}
+}
+console.log(count)
+
+
+
+
+// let a="zade medowes";
+// const k="aeiou";
+// for(let char of a){
+// if(k.includes(char.toLowerCase())){
+//  console.log(char);
+// }
+// }
