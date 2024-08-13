@@ -1,0 +1,5 @@
+let a="ananthika";
+for(let char of a)
+if(a.split(char).length===2){
+    console.log(char);
+}
