@@ -1,0 +1,25 @@
+function ispalindrome(k){
+return k===k.split('').reverse().join('');
+}
+let k="hannah";
+let a=ispalindrome(k);
+if(a){
+    console.log("yes",k);
+}
+else{
+    console.log("no",k);
+}
+
+
+
+//  function ispalindrome(k){
+// return k===k.split('').reverse().join('');
+// }
+// let k="mother";
+// let a=ispalindrome(k);
+// if(a){
+//     console.log("yes",k);
+// }
+// else{
+//     console.log("no",k);
+//  }
