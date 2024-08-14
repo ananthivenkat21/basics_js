@@ -1,0 +1,6 @@
+let k=[1,4,6,4,3,4,8,9,4,2,1,6];
+let l=4;
+let count=k.filter(function(element){
+    return element===l;
+}).length;
+console.log(count);
