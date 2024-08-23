@@ -1,0 +1,3 @@
+let a="AnanthiKa";
+let k=/[A-Z]/.test(a)
+console.log(k);
