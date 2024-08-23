@@ -1,0 +1,7 @@
+let a=[2,3,4,6,8,3,5,10,13];
+let b=5;
+for(let num of a){
+    if(b==num){
+        console.log(num);
+    }
+}
