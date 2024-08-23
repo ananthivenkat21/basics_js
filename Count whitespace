@@ -1,0 +1,8 @@
+let a=" Ananthika venkatachalam ";
+let count=0;
+for(let k in a){
+    if(a[k]===' ') {
+    count++;
+    }
+}
+console.log(count);
