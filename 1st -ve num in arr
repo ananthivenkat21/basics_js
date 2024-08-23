@@ -1,0 +1,6 @@
+let a=[-2,3,4,-6,8,-3,5,10,-13];
+for(let num of a)
+if(num<=0){
+ console.log(num);
+ break;
+}
